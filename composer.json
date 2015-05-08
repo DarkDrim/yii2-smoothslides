@@ -1,24 +1,39 @@
 {
-  "name": "darkdrim/smoothslides",
-  "description": "A responsive jQuery slideshow with beautiful panning effects on each image",
-  "homepage": "http://kthornbloom.com/smoothslides/",
-  "keywords": [
-    "responsive",
-    "slideshow",
-    "panning",
-    "effects",
-    "image",
-    "jquery",
-    "galery"
-  ],
-  "license": [
-    "MIT"
-  ],
-  "authors": [
-    {
-      "name": "darkdrim",
-      "email": "drimd@ukr.net"
+    "name": "darkdrim/yii2-smoothslides",
+    "description": "A responsive jQuery slideshow with beautiful panning effects on each image for Yii2",
+    "homepage": "http://kop.github.io/yii2-scroll-pager/",
+	"keywords": [
+		"yii",
+		"yii2",
+		"responsive",
+		"slideshow",
+		"panning",
+		"effects",
+		"image",
+		"jquery",
+		"galery"
+	],
+    "type": "yii2-extension",
+    "license": "MIT",
+    "support": {
+        "issues": "https://github.com/DarkDrim/yii2-smoothslides/issues",
+        "source": "https://github.com/DarkDrim/yii2-smoothslides"
+    },
+    "authors": [
+        {
+            "name": "darkdrim",
+            "email": "drimd@ukr.net",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "yiisoft/yii2": "*",
+        "darkdrim/smoothslides": "dev-master"
+    },
+    "autoload": {
+        "psr-4": {
+            "darkdrim\\smoothslides\\": ""
+        }
     }
-  ],
-  "minimum-stability": "stable"
 }
