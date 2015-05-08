@@ -1,0 +1,24 @@
+{
+  "name": "darkdrim/smoothslides",
+  "description": "A responsive jQuery slideshow with beautiful panning effects on each image",
+  "homepage": "http://kthornbloom.com/smoothslides/",
+  "keywords": [
+    "responsive",
+    "slideshow",
+    "panning",
+    "effects",
+    "image",
+    "jquery",
+    "galery"
+  ],
+  "license": [
+    "MIT"
+  ],
+  "authors": [
+    {
+      "name": "darkdrim",
+      "email": "drimd@ukr.net"
+    }
+  ],
+  "minimum-stability": "stable"
+}
